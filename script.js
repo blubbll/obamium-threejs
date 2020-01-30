@@ -1,3 +1,5 @@
+//©Blubbll
+
 var THREE = window.THREE;
 
 //create the scene
@@ -21,7 +23,7 @@ renderer.setClearColor(0xffffff, 0);
 //add the renderer to the stage, (renderer returns a <canvas> element)
 document.body.appendChild(renderer.domElement);
 
-/* ---------- Add a cube --------------*/
+/* ---------- Add a pyramid --------------*/
 
 //add the geometry, this is an object that contains all the verticies and faces. pass in the size of the faces
 var geometry = new THREE.CylinderGeometry(0, 7, 10, 3, 0);
